@@ -76,6 +76,13 @@ public class accountHolder {
 		return ssn;
 	}
 	
+	/* getter for checking Account
+	 * created by behulum w
+	 */
+	public CheckingAccount getCheckingAccount() {
+		return CheckingAccount(checkingAccountOpeningBalance);
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
