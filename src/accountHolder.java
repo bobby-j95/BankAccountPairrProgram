@@ -62,6 +62,20 @@ public class accountHolder {
 		return lastName;
 	}
 	
+	/* Setter for Social Security Number
+	 * created by Robert J
+	 */
+	public void setSSN(String ssn) {
+		this.ssn = ssn;
+	}
+	
+	/* getter for Social Security Number 
+	 * created by Robert J
+	 */
+	public String getSSN() {
+		return ssn;
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
