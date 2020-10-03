@@ -48,6 +48,20 @@ public class accountHolder {
 		return middleName;
 	}
 	
+	/* Setter for last name
+	 * created by behulum w
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	/* getter for last name 
+	 * created by behulum w
+	 */
+	public String getlastName() {
+		return lastName;
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
