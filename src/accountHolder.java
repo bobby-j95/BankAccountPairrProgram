@@ -83,6 +83,20 @@ public class accountHolder {
 		return CheckingAccount(checkingAccountOpeningBalance);
 	}
 	
+	/* getter for saving Account
+	 * created by Robert J
+	 */
+	public SavingAccount getSavingAccount() {
+		return SavingAccount(savingsAccountOpeningBalance);
+	}
+	
+	/*value converter to string
+	 * created by Robert J
+	 */
+	private static String toString() {
+		
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
