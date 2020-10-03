@@ -34,6 +34,20 @@ public class accountHolder {
 		return firstName;
 	}
 	
+	/* Setter for middle name
+	 * created by Robert J
+	 */
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
+	}
+	
+	/* getter for middle name 
+	 * created by Robert J
+	 */
+	public String getMiddleName() {
+		return middleName;
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
