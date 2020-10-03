@@ -96,7 +96,7 @@ public class accountHolder {
 	private static String toString() {
 		
 	}
-	
+	//All private variables needed in the program
 	private String firstName;
 	private String middleName;
 	private String lastName;
