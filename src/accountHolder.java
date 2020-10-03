@@ -20,6 +20,20 @@ public class accountHolder {
 		this.savingsAccountOpeningBalance = savingsAccountOpeningBalance;
 	}
 	
+	/* Setter for first name
+	 * created by behulum w
+	 */
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	
+	/* getter for first name 
+	 * created by behulum w
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+	
 	private String firstName;
 	private String middleName;
 	private String lastName;
@@ -27,3 +41,4 @@ public class accountHolder {
 	private double checkingAccountOpeningBalance;
 	private double savingsAccountOpeningBalance;
 }
+	
