@@ -37,7 +37,7 @@ public class SavingAccount {
 		return (openingBalance*(Math.pow((1+INTEREST_RATE),(years%12))));
 	}
 	
-	private String toStrings() {
+	public String toString() {
 		return("Savings Account Balance: $" + getBalance()+ "\n" + 
 				"Savings Account Interest Rate: " + getInterestRate() + "\n" +
 				"Savings Account Balance in 3 years: $" + futureValue(36));
