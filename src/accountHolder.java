@@ -11,7 +11,7 @@ public class accountHolder {
 	 * Created by Robert J
 	 */
 	public void AccountHolder(String firstName, String middleName, String lastName, String ssn, 
-			double checkingAccountOpeningBalance, double savingsAccountOpeningBalance) {
+			                 double checkingAccountOpeningBalance, double savingsAccountOpeningBalance) {
 		this.firstName = firstName;
 		this.middleName = middleName;
 		this.lastName = lastName;
